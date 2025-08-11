@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+/* HEADER NAV */
+header {
+    background: #ffa200;
+    color: white;
+    padding: 10px 0;
+}
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+header nav {
+    text-align: center;
+    margin-top: 8px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 4px;
+}
+header nav a:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+/* BANNER */
+.banner img {
+    width: 100%;
+    display: block;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+}
+/* SECTIONS */
+section {
+    padding: 30px 15px;
+}
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+section p, section ul {
+    color: #555;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* FEATURES LIST */
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+.features li {
+    background: #f1f1f1;
+    padding: 8px;
+    margin: 5px auto;
+    max-width: 400px;
+    border-radius: 4px;
+}
+
+/* CONTACT FORM */
+.contact form {
+    max-width: 400px;
+    margin: auto;
+}
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.contact button {
+    background: green;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+.contact button:hover {
+    background: darkgreen;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+#ware{
+    text-align: center;
+}
+.welcome {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+}
+/* FORM CARD */
+.form-card {
+    background: #f9f9f9;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.form-card label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-card input, 
+.form-card select, 
+.form-card textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-card button {
+    background: #007bff;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-card button:hover {
+    background: #0056b3;
+}
